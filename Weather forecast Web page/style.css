@@ -1,0 +1,67 @@
+:root {
+    font-family: 'Nunito Sans', sans-serif;
+    --hot: white;
+    --warm: beige;
+    --cool: pink;
+    --cold: purple;
+    --shadow-border :rgb(143, 143, 143);
+}
+
+
+.five-day,
+.daily-card,
+.Weather-summary{
+    
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px var(--shadow-border);
+    border: 1px solid var(--shadow-border);
+    padding: 5px;
+    border-radius: 15px;
+    text-align: center;
+    width:150px;
+    margin-top: 25px;
+    margin-left: 15%;
+    background-image: linear-gradient(180deg, var(--warm), var(--cool));
+    
+}
+
+.five-day,
+.Weather-summary {
+    text-align: center;
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    font-size: 2rem;
+    font-weight: 600;
+   
+    
+}
+
+#Weather-details{
+    display: grid;
+    grid-template-columns   : auto auto;
+    column-gap: 3%;
+    justify-content: center;
+}
+
+#chart-region{
+    width:700px;
+    height:50%;
+    margin-top:20%;
+    margin-right:10%;
+    border: 5px solid pink;
+    border-radius: 15px;
+}
+
+.Weather-summary{
+    width: 60%;
+}
+
+#forecast{
+    margin-top:10%;
+    border: 5px solid pink;
+    border-radius: 15px;
+    padding-bottom: 10%;
+}
+  
