@@ -1,4 +1,5 @@
-const apiKey = "6757cf45515acdfe50d408f06e1368c5";
+// Not including the API key with the code here for privacy concerns
+const apiKey = "";
 const API_URL = `https://api.openweathermap.org/data/2.5/forecast?appid=${apiKey}&q=chicago`;
 
 fetch(API_URL)
